@@ -63,6 +63,7 @@ The following settings must be passed as environment variables as shown in the e
 | `EnvironmentVariables` | The environment variables for the branch. | `env` | **No** | N/A |
 | `GITHUB_TOKEN` | The `GITHUB_TOKEN`, should be supplied if a comment with the preview URL is to be posted on the PR.  GitHub automatically creates a `GITHUB_TOKEN` secret to use in your workflow. You can use it directly, see [About the GITHUB_TOKEN secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token#about-the-github_token-secret) | `github env` | No | N/A |
 | `NewBackendEnvARN` | The Amazon Resource Name (ARN) for a backend environment that is part of an Amplify app. | `secret env` | No | N/A |
+| `EnablePreview` | Enables Amplify's previews for the branch. Used to activate previews with gh-actions. | `bool` | No | N/A |
 
 #### AWS_SECRET_ACCESS_KEY & AWS_ACCESS_KEY_ID
 <details>
